@@ -1,0 +1,1 @@
+class CoffeeException implements Exception {}

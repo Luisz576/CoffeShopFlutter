@@ -1,0 +1,1 @@
+class SessionException extends Error {}

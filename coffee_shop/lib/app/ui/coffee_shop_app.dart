@@ -1,3 +1,4 @@
+import 'package:coffee_shop/app/translatable_text.dart';
 import 'package:coffee_shop/app/ui/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -6,10 +7,10 @@ class CoffeeShopApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-			title: "Coffee Shop",
+    return MaterialApp(
+			title: TranslatableText.text(TranslatableTextKey.APP_NAME),
 			debugShowCheckedModeBanner: false,
-			home: HomeScreen(),
+			home: const HomeScreen(),
 		);
   }
 }

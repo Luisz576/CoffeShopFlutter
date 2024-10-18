@@ -10,4 +10,6 @@ void setupInjector(){
 	injector.addInstance<CoffeeRepository>(CoffeeRepositoryImpl());
 
 	injector.addInstance<SessionService>(SessionServiceImpl());
+
+	injector.commit();
 }

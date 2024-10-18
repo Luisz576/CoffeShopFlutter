@@ -30,16 +30,16 @@ class SearchField extends StatelessWidget {
 						),
 						prefixIcon: const Icon(Icons.search, color: CoffeeShopColors.whiteColor, weight: 0.5, size: 18,),
 						hintText: TranslatableText.text(TranslatableTextKey.SEARCH_COFFEE),
-						hintStyle: GoogleFonts.nunito(
+						hintStyle: GoogleFonts.sora(
 							color: CoffeeShopColors.grayColor,
 							fontWeight: FontWeight.w300,
-							fontSize: 12
+							fontSize: 10
 						)
 					),
 					autocorrect: true,
-					style: GoogleFonts.nunito(
+					style: GoogleFonts.sora(
 						color: CoffeeShopColors.whiteColor,
-						fontSize: 12
+						fontSize: 10
 					),
 				),
 			),

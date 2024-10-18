@@ -41,9 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
 								crossAxisAlignment: CrossAxisAlignment.start,
 								children: [
 									Text(TranslatableText.text(TranslatableTextKey.LOCATION),
-										style: GoogleFonts.nunito(
+										style: GoogleFonts.sora(
 											color: CoffeeShopColors.grayColor,
-											fontSize: 10,
+											fontSize: 8,
 										),
 									),
 									const SizedBox(height: 4,),
@@ -54,10 +54,10 @@ class _HomeScreenState extends State<HomeScreen> {
 												builder: (context, child){
 													final session = sessionState.value.session;
 													return Text(session != null && session.user != null ? "${session.user!.city}, ${session.user!.state}" : "????",
-														style: GoogleFonts.nunito(
+														style: GoogleFonts.sora(
 															color: CoffeeShopColors.whiteColor,
-															fontSize: 12,
-															fontWeight: FontWeight.w700
+															fontSize: 10,
+															fontWeight: FontWeight.w400
 														),
 													);
 												},

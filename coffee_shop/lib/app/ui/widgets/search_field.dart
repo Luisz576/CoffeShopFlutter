@@ -33,13 +33,13 @@ class SearchField extends StatelessWidget {
 						hintStyle: GoogleFonts.sora(
 							color: CoffeeShopColors.grayColor,
 							fontWeight: FontWeight.w300,
-							fontSize: 10
+							fontSize: 12
 						)
 					),
 					autocorrect: true,
 					style: GoogleFonts.sora(
 						color: CoffeeShopColors.whiteColor,
-						fontSize: 10
+						fontSize: 12
 					),
 				),
 			),

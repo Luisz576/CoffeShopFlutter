@@ -1,3 +1,4 @@
+import 'package:coffee_shop/app/interactor/entities/promotion_entity.dart';
 import 'package:coffee_shop/app/interactor/states/session_state.dart';
 import 'package:coffee_shop/app/translatable_text.dart';
 import 'package:coffee_shop/app/ui/coffee_shop_colors.dart';
@@ -84,7 +85,12 @@ class HomePage extends StatelessWidget {
 						),
 					),
 					// # promotion #
-					const PromotionCard()
+					PromotionCard(
+						promotion: PromotionEntity(
+							id: 2,
+							title: "Buy one get one free"
+						),
+					)
 					//TODO: PRODUCTS
 				],
 			),

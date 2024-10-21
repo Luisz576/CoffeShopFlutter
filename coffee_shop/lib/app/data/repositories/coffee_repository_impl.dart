@@ -16,6 +16,36 @@ class CoffeeRepositoryImpl implements CoffeeRepository {
 				score: 4.8,
 				avaliations: 200,
 				price: 4.53,
+			),
+			CoffeeEntity(
+				id: 1,
+				name: 'Caffe Mocha',
+				description: 'Deep Foam',
+				category: CoffeeCategory.machiato,
+				imageAsset: 'assets/images/caffe_mocha.png',
+				score: 4.8,
+				avaliations: 200,
+				price: 4.53,
+			),
+			CoffeeEntity(
+				id: 1,
+				name: 'Caffe Mocha',
+				description: 'Deep Foam',
+				category: CoffeeCategory.machiato,
+				imageAsset: 'assets/images/caffe_mocha.png',
+				score: 4.8,
+				avaliations: 200,
+				price: 4.53,
+			),
+			CoffeeEntity(
+				id: 1,
+				name: 'Caffe Mocha',
+				description: 'Deep Foam',
+				category: CoffeeCategory.machiato,
+				imageAsset: 'assets/images/caffe_mocha.png',
+				score: 4.8,
+				avaliations: 200,
+				price: 4.53,
 			)
 		]);
   }

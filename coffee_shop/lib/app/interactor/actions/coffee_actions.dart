@@ -8,6 +8,7 @@ Future<void> fetchAll() async {
 
 	final repository = injector.get<CoffeeRepository>();
 	final result = await repository.fetchAll();
+	await Future.delayed(const Duration(seconds: 1));
 
 	result.fold((exception){
 		coffeesState.setValue(CoffeeState.error(exception));

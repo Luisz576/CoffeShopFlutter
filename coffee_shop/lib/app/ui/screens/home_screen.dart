@@ -1,3 +1,4 @@
+import 'package:coffee_shop/app/interactor/actions/coffee_actions.dart';
 import 'package:coffee_shop/app/interactor/actions/session_actions.dart';
 import 'package:coffee_shop/app/interactor/states/session_state.dart';
 import 'package:coffee_shop/app/ui/coffee_shop_colors.dart';
@@ -18,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
 		if(sessionState.value.session == null){
 			loginSession();
+			fetchAll();
 		}
   }
 

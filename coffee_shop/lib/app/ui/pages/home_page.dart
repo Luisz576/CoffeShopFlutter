@@ -33,7 +33,9 @@ class HomePage extends StatelessWidget {
 							const SizedBox(
 								height: 20,
 							),
-							const ProductsList(),
+							const Expanded(
+								child: ProductsList(),
+							),
 						],
 					),
 				],

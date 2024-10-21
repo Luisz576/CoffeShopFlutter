@@ -13,6 +13,7 @@ class PromotionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+		// TODO: AJUST ACCORDING THE DESIGN
     return SizedBox(
 			width: MediaQuery.of(context).size.width - 40,
 			height: 160,
